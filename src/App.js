@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.scss';
-/*import Routes from './routes/Routes';*/
+//import Routes from './routes/Routes';
+import HeaderQuestions from './components/headerQuestions/HeaderQuestions.js';
 import PreguntaIndividual from "./sections/pregunta-individual";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 const App = () => {
-	return (
-		<div className='App'>
-			<PreguntaIndividual />
-		</div>
-	);
-}
+  	return (
+		  <div className='App'>
+    		<HeaderQuestions />
+        <PreguntaIndividual />
+		  </div>
+  	);
 
 export default App;
