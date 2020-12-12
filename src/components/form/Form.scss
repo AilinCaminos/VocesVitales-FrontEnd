@@ -1,0 +1,20 @@
+@import '../../scss/mixins.scss';
+
+.form {
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    padding: 10px;
+    .input-form, .textarea-form {
+        @include breakpoint-tablet-desktop {
+            width: 50%;
+        }
+    }
+    .button-form {
+        width: 100%;
+        @include breakpoint-tablet {
+            width: 30%;
+        }
+        @include breakpoint-tablet-desktop {
+            width: 20%;
+        }
+    }
+}
