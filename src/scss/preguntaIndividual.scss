@@ -1,0 +1,24 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+#pregunta-individual {
+    .user-box {
+        background-color: $gris;
+        .mentora-img {
+            background-image: url("../imgs/mentora.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 5rem;
+            height: 5rem;
+        }
+        .aprendiz-img {
+            background-image: url("../imgs/aprendiz.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+}

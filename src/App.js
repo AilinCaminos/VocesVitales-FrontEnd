@@ -1,13 +1,16 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.scss';
-import Routes from './routes/Routes';
+/*import Routes from './routes/Routes';*/
+import PreguntaIndividual from "./sections/pregunta-individual";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
-  	return (
-		<Fragment>
-    		<Routes />
-		</Fragment>
-  	);
+	return (
+		<div className='App'>
+			<PreguntaIndividual />
+		</div>
+	);
 }
 
 export default App;
