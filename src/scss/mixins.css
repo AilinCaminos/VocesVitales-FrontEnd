@@ -1,0 +1,41 @@
+.primary-button {
+  background-color: #cf033d;
+  color: white;
+  border: 1px solid #cf033d;
+  border-radius: 0.5rem;
+}
+
+.primary-button:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px #424952;
+          box-shadow: 0px 0px 5px 0px #424952;
+}
+
+.primary-button:active {
+  -webkit-box-shadow: inset 0px 0px 5px 0px #424952;
+          box-shadow: inset 0px 0px 5px 0px #424952;
+}
+
+.primary-button:focus {
+  outline: none;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #424952;
+  border: 1px solid #424952;
+  border-radius: 0.5rem;
+}
+
+.secondary-button:hover {
+  background-color: #30b6b5;
+}
+
+.secondary-button:active {
+  -webkit-box-shadow: 0px 0px 5px 0px #424952;
+          box-shadow: 0px 0px 5px 0px #424952;
+}
+
+.secondary-button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=mixins.css.map */
