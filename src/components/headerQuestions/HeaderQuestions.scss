@@ -1,0 +1,24 @@
+@import '../../scss/mixins.scss';
+
+.container-header-questions {
+    padding: 15px;
+    .row-header-questions {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        .title-header-questions {
+            font-weight: 600;
+            font-size: 25px;
+        }
+        .button-header-questions {
+            width: 100%;
+            @include breakpoint-tablet {
+                width: 30%;
+            }
+            @include breakpoint-tablet-desktop {
+                width: 20%;
+            }
+        }
+    }
+}
