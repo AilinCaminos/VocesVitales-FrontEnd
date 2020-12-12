@@ -1,14 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './App.scss';
-import Routes from './routes/Routes';
+//import Routes from './routes/Routes';
 import HeaderQuestions from './components/headerQuestions/HeaderQuestions.js';
+import PreguntaIndividual from "./sections/pregunta-individual";
 
 const App = () => {
   	return (
-		<Fragment>
+		  <div className='App'>
     		<HeaderQuestions />
-		</Fragment>
+        <PreguntaIndividual />
+		  </div>
   	);
-}
 
 export default App;

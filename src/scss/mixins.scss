@@ -1,3 +1,41 @@
+@import "./variables.scss";
+
+@mixin primary-button {
+    background-color: $fucsia;
+    color: white;
+    border: 1px solid $fucsia;
+    border-radius: 0.5rem;
+    &:hover {
+        box-shadow: 0px 0px 5px 0px rgba(66,73,82,1);
+    }
+    &:active {
+        box-shadow: inset 0px 0px 5px 0px rgba(66,73,82,1);
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.primary-button {
+    @include primary-button;
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: $gris-oscuro;
+    border: 1px solid $gris-oscuro;
+    border-radius: 0.5rem;
+    &:hover {
+        background-color: $celeste;
+    }
+    &:active {
+        box-shadow: 0px 0px 5px 0px rgba(66,73,82,1);
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
 //Screen Sizes 
 @mixin breakpoint-mobile-2 {
     @media (min-width: 414px) {
@@ -22,3 +60,4 @@
         @content;
     }
 }
+
