@@ -39,6 +39,10 @@
   outline: none;
 }
 
+#pregunta-individual {
+  background-color: white;
+}
+
 #pregunta-individual .user-box {
   background-color: #ececec;
 }

@@ -1,2 +1,10 @@
 // Aqui coloco los estilos generales,
 // lo de la pantalla inicial
+
+@import "./scss/variables.scss";
+ 
+
+ .App {
+    background-color: $gris;
+    padding: 1rem;
+}
