@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/VocesVitales-FrontEnd/static/css/main.20fe495b.chunk.css",
+    "main.js": "/VocesVitales-FrontEnd/static/js/main.b7a6f074.chunk.js",
+    "main.js.map": "/VocesVitales-FrontEnd/static/js/main.b7a6f074.chunk.js.map",
+    "runtime-main.js": "/VocesVitales-FrontEnd/static/js/runtime-main.19e00308.js",
+    "runtime-main.js.map": "/VocesVitales-FrontEnd/static/js/runtime-main.19e00308.js.map",
+    "static/css/2.109aacae.chunk.css": "/VocesVitales-FrontEnd/static/css/2.109aacae.chunk.css",
+    "static/js/2.4250e93d.chunk.js": "/VocesVitales-FrontEnd/static/js/2.4250e93d.chunk.js",
+    "static/js/2.4250e93d.chunk.js.map": "/VocesVitales-FrontEnd/static/js/2.4250e93d.chunk.js.map",
+    "static/js/3.0dfcc615.chunk.js": "/VocesVitales-FrontEnd/static/js/3.0dfcc615.chunk.js",
+    "static/js/3.0dfcc615.chunk.js.map": "/VocesVitales-FrontEnd/static/js/3.0dfcc615.chunk.js.map",
+    "index.html": "/VocesVitales-FrontEnd/index.html",
+    "static/css/2.109aacae.chunk.css.map": "/VocesVitales-FrontEnd/static/css/2.109aacae.chunk.css.map",
+    "static/css/main.20fe495b.chunk.css.map": "/VocesVitales-FrontEnd/static/css/main.20fe495b.chunk.css.map",
+    "static/js/2.4250e93d.chunk.js.LICENSE.txt": "/VocesVitales-FrontEnd/static/js/2.4250e93d.chunk.js.LICENSE.txt",
+    "static/media/preguntaIndividual.scss": "/VocesVitales-FrontEnd/static/media/mentora.5afc8299.jpg",
+    "static/media/logo.4665a8e9.png": "/VocesVitales-FrontEnd/static/media/logo.4665a8e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19e00308.js",
+    "static/css/2.109aacae.chunk.css",
+    "static/js/2.4250e93d.chunk.js",
+    "static/css/main.20fe495b.chunk.css",
+    "static/js/main.b7a6f074.chunk.js"
+  ]
+}
