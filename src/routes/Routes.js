@@ -6,7 +6,7 @@ import PreguntaIndividual from '../sections/pregunta-individual';
 const Routes = () => {
   	return (
 		<Switch>
-    		<Route exact path='/' component={SectionQuestions} />
+    		<Route exact path='/principal' component={SectionQuestions} />
 			<Route exact path='/pregunta-respuestas' component={PreguntaIndividual} />
 		</Switch>
   	);
