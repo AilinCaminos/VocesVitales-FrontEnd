@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.scss';
-//import Routes from './routes/Routes';
-import HeaderQuestions from './components/headerQuestions/HeaderQuestions.js';
-import PreguntaIndividual from "./sections/pregunta-individual";
+import Routes from './routes/Routes';
 
 const App = () => {
   	return (
-		  <div className='App'>
-    		<HeaderQuestions />
-        <PreguntaIndividual />
-		  </div>
+		<div className='App'>
+    		<Routes />	
+		</div>
   	);
+}
 
 export default App;

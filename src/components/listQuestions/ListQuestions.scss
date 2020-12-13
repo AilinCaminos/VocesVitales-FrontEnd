@@ -1,0 +1,165 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.container-questions {
+    #pregunta-detalle {
+        background-color: #ffffff;
+        border: 1px solid #ebebeb;
+        border-radius: 3px;
+        max-width: 100%;
+        .container-pregunta-detalle {
+            @include breakpoint-tablet-desktop {
+                max-width: 100% !important;
+            }
+            .title-question {
+                color: $celeste;
+                font-size: 17px;
+                text-decoration: none;
+                @include breakpoint-tablet-desktop {
+                    font-size: 20px;
+                }
+            }
+            .container-votes-answers {
+                @include breakpoint-tablet-desktop {
+                    max-width: 10%;
+                }
+                .votes-answers {
+                    display: flex;
+                    margin-top: 15px;
+                    text-align: center !important;
+                    @include breakpoint-tablet-desktop {
+                        display: block;
+                    }
+                    .votes, .answers {
+                        margin-right: 20px;
+                        @include breakpoint-tablet-desktop {
+                            margin: 0 auto; 
+                        }
+                        .n-votes-answers {
+                            background-color: $fucsia;
+                            border-radius: 50%;
+                            color: white;
+                            font-size: 17px;
+                            height: 50px;
+                            margin: 0;
+                            padding: 12px 0 0;             
+                            width: 50px;
+                            @include breakpoint-tablet-desktop {
+                                font-size: 20px;
+                                margin: 0 auto;
+                                padding: 10px 0 0;
+                            }
+                        }
+                        .p-votes-answers {
+                            font-size: 12px;
+                            padding-top: 5px;
+                            @include breakpoint-tablet-desktop {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .change {
+                flex-direction: column-reverse;
+                @include breakpoint-tablet-desktop {
+                    flex-direction: row;
+                }
+                .container-description {
+                    @include breakpoint-tablet-desktop {
+                        max-width: 90% !important;
+                        padding: 30px 10px;
+                    }
+                    .description-question {
+                        font-size: 14px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        @include breakpoint-tablet-desktop {
+                            font-size: 17px;  
+                        }
+                    }
+                    .btn-tags {
+                        display: flex;
+                        padding: 0;
+                        .btn-tag {
+                            padding: 50px;
+                        }
+                    }
+                }
+            }    
+            .container-card-user {
+                @include breakpoint-tablet-desktop {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .user-box {
+                    background-color: #f3f3f3;
+                    border: none;
+                    display: flex;
+                    margin-top: 6px;
+                    padding: 8px 15px;
+                    @include breakpoint-tablet {
+                        border: 1px solid #d8d7d7;
+                        margin: 6px 5px 25px 15px;
+                        width: 35%;
+                    }
+                    @include breakpoint-tablet-desktop {
+                        margin: -20px 16px 25px 15px;
+                        width: 30%;
+                    }
+                    @include breakpoint-desktop-2 {
+                        padding: 13px;
+                        width: 27%;
+                    }
+                    @include breakpoint-desktop-2 {
+                        margin: -40px 16px 25px 15px;
+                    }
+                    .img-person {
+                        border-radius: 50%;
+                        width: 40%;
+                        @include breakpoint-tablet {
+                            width: 100%;
+                        }
+                        @include breakpoint-tablet-desktop {
+                            height: 70px;
+                            width: 160%;
+                        }
+                    }
+                    .card-body {
+                        padding: 0;
+                        .card-title {
+                            font-size: 17px;
+                            font-weight: 600;
+                            margin-left: -80px !important;
+                            @include breakpoint-mobile-2 {
+                                margin-left: -110px !important;
+                            }
+                            @include breakpoint-tablet {
+                                margin-left: -15px !important; 
+                            }
+                            @include breakpoint-tablet-desktop {
+                                font-size: 20px;
+                                margin-left: 5px !important;  
+                            }
+                        }
+                        .card-text {
+                            font-size: 14px;
+                            margin-left: -80px !important;
+                            @include breakpoint-mobile-2 {
+                                margin-left: -110px !important;
+                            }
+                            @include breakpoint-tablet {
+                                margin-left: -15px !important;
+                            }
+                            @include breakpoint-tablet-desktop {
+                                font-size: 17px;
+                                margin-left: 5px !important;  
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}

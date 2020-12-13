@@ -5,6 +5,7 @@ import { faHandPointDown } from "@fortawesome/free-solid-svg-icons";
 import "../scss/preguntaIndividual.scss";
 
 const PreguntaDetalle = () => {
+    
     return (
         <div id="pregunta-detalle" className="container">
             <div className="container border p-3">

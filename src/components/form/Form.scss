@@ -1,7 +1,7 @@
 @import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
 
 .form {
-    box-shadow: 0 0 5px rgba(0,0,0,.1);
     padding: 10px;
     .input-form, .textarea-form {
         @include breakpoint-tablet-desktop {
@@ -9,7 +9,19 @@
         }
     }
     .button-form {
+        background-color: $fucsia;
+        border: none;
         width: 100%;
+        &:hover {
+            background-color: lighten($fucsia, 8);
+        }
+        &:active {
+            background-color: $fucsia !important;
+        }
+        &:focus {
+            background-color: $fucsia;
+            box-shadow: none !important;
+        }
         @include breakpoint-tablet {
             width: 30%;
         }
