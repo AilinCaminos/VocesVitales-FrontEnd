@@ -16,26 +16,6 @@
     }
 }
 
-.primary-button {
-    @include primary-button;
-}
-
-.secondary-button {
-    background-color: transparent;
-    color: $gris-oscuro;
-    border: 1px solid $gris-oscuro;
-    border-radius: 0.5rem;
-    &:hover {
-        background-color: $celeste;
-    }
-    &:active {
-        box-shadow: 0px 0px 5px 0px rgba(66,73,82,1);
-    }
-    &:focus {
-        outline: none;
-    }
-}
-
 //Screen Sizes 
 @mixin breakpoint-mobile-2 {
     @media (min-width: 414px) {
@@ -57,6 +37,12 @@
 
 @mixin breakpoint-desktop-1 {
     @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop-2 {
+    @media (min-width: 1200px) {
         @content;
     }
 }
